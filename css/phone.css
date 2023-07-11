@@ -1,0 +1,80 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 8px;
+    padding: 0px 0px;
+    /* padding-bottom: 10px; */
+}
+#navbar::before{
+    height: 125px;
+}
+#navbar ul li{
+    margin: 20px;
+}
+#navbar ul li a{
+    font-size: 10px;
+}
+#navbar ul li a:hover{
+    font-size: 10px;
+    padding: 0px 10px;
+    /* padding-bottom: 10px; */
+}
+/* Home */
+#home{
+    height: 380px;
+    padding: 8px 68px;
+
+}
+#home::before{
+    height: 534px;
+}
+#home p{
+    font-size: 18px;
+}
+/* Servies section */
+#services{
+    flex-direction: column;
+}
+
+/* Client section*/
+#clients{
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+}
+#clients img{
+    width: 57px;
+    height: 60px;
+    margin: 2px;
+    /* padding: 56px; */
+}
+.client-items{
+    padding: 10px;
+    margin: 0px;
+}
+#client-section{
+    height: 125px;
+}
+#client-section::before{
+    height: 146px;
+}
+/* Contact section */
+#contact-box{
+    padding-bottom: 72px;
+}
+#contact::before{
+    height: 705px;
+}
+#contact-box form{
+    width: 80%;
+}
+/* Footer */
+/* utility classes */
+.h-primary{
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
